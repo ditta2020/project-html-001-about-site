@@ -95,7 +95,31 @@ footer {
 }
 
 /* Works */
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.main-content section {
+    box-sizing: content-box;
+    padding: 10px;
+}
+
+@media (max-width: 650px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+}
 
 /* Gallery */
 
 /* About */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
