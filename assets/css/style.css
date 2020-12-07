@@ -130,6 +130,17 @@ footer {
 
 /* About */
 
+form {
+    background-color: lightsteelblue;
+    padding: 1em;
+}
+input, textarea, button {
+    display: block;
+    margin: 0 0 1em 0;
+    border: none;
+    font-size: 1.2em;
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
