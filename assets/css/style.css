@@ -112,6 +112,22 @@ footer {
 
 /* Gallery */
 
+.gallery .main-content {
+    width: 930px; /* @todo use image sets for different screen sizes */
+}
+
+.gallery img {
+    display: block;
+    padding: 10px;
+    box-shadow: lightsteelblue 5px 5px 5px;
+}
+
+@media (max-width: 650px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* About */
 
 
